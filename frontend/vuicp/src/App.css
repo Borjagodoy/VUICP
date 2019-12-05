@@ -1,0 +1,94 @@
+/*HEADER*/
+
+header {
+  width: 100%;
+  height: 67px;
+  background-color: #038773;
+  line-height: 67px;
+}
+
+header h2 {
+  margin-left: 42px;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/*LOGINSCREEN*/
+
+.login {
+  width: 100%;
+  height: calc(100vh - 67px);
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  position: relative;
+  grid-template-rows: 40% 60%;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:  "title ."
+                        ". accounts";
+}
+
+.title {
+  grid-area: title;
+  align-self: center;
+  margin-left: 42px;
+}
+
+.title h3 {
+  font-size: 48px;
+}
+
+.title h3 span {
+  color: #038773;
+}
+
+.accounts {
+  grid-area: accounts;
+}
+
+.accounts button {
+  min-width: 380px;
+  min-height: 75px;
+  margin: 5px;
+  color: #FFF;
+  border: none;
+  font-size: 25px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.git {
+  background-color: #333333;
+  padding-left: 20px;
+}
+
+.google {
+  background-color: #4584EB;
+  padding-left: 25px;
+}
+
+.git img {
+  padding-right: 20px;
+}
+
+.google img {
+  padding-right: 24px;
+}
+
+@media (max-width:1024px) {
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 5vh;
+  }
+}
