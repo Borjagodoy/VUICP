@@ -5,6 +5,10 @@ header {
   height: 67px;
   background-color: #038773;
   line-height: 67px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 header h2 {
@@ -12,17 +16,28 @@ header h2 {
   color: #FFF;
   font-weight: 300;
   font-size: 24px;
+
+  flex-grow: 1;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 42px;
+  border-radius: 100%;
 }
 
 /*LOGINSCREEN*/
 
-.login {
+.background {
   width: 100%;
   height: calc(100vh - 67px);
   background-image: url('./img/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
 
+.login {
   display: grid;
   position: relative;
   grid-template-rows: 40% 60%;
@@ -92,3 +107,61 @@ header h2 {
     margin-bottom: 5vh;
   }
 }
+
+/*SESSION*/
+
+.session {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.space {
+  margin: 10vh 0 3vh 0;
+}
+
+.help {
+  text-decoration: none;
+  color: #000;
+}
+
+.containerInputs {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #038773;
+  color: #038773;
+  position: relative;
+  text-align: center;
+}
+
+.menu input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.menu:hover {
+  box-shadow: 1px 1px 3px #038773;
+}
+
+.menu p{
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.menu img {
+  margin-top: 250px;
+}
+
