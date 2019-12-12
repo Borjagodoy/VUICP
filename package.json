@@ -1,5 +1,6 @@
 {
   "name": "vuicp",
+  "homepage": "https://borjagodoy.github.io/VUICP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
