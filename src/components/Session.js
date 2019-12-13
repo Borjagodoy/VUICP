@@ -32,7 +32,7 @@ class LoginScreen extends React.Component {
             return(
                 <section className="session">
                     <div className="space">
-                        <a href="#" className="help">¿How export Alexa or DialogFlow code?</a>
+                        <a href="/" className="help">¿How export Alexa or DialogFlow code?</a>
                     </div>
                     <div className="containerInputs">
                             <div className="menu">
