@@ -8,7 +8,7 @@ class Header extends React.Component {
         if(this.props.user === true) {
             return(
                 <header>
-                    <h2>VUI Croos Platform</h2> <img src={example} alt=""/>
+                    <h2>VUI Croos Platform</h2> <img src={example} alt="" onClick={this.props.handleUser}/>
                 </header>
             )
         } else {
