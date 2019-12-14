@@ -114,9 +114,10 @@ header img {
 
 /*SESSION*/
 
-.session {
+.container {
   max-width: 1280px;
   margin: auto;
+  padding: 15px;
 }
 
 .space {
@@ -130,7 +131,7 @@ header img {
 
 .containerInputs {
   display: flex;
-  
+
   flex-direction: row;
   justify-content: space-between;
 }
@@ -169,3 +170,48 @@ header img {
   margin-top: 250px;
 }
 
+/*PROJECT*/
+
+.alignLanguages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 10vh 0 3vh 0;
+}
+
+.container h2 {
+  font-size: 48px;
+  font-weight: 300;
+
+  flex-grow: 1;
+}
+
+/*LANGUAGE*/
+
+.languageIcon {
+  margin: 0 2px;
+}
+
+.alignInfo {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 5vh;
+}
+
+.alignInfo div {
+  flex-grow: 1;
+}
+
+.alignInfo div h3{
+  margin-bottom: 2vh;
+  font-weight: 300;
+}
+
+/*ENTITIESINTENTS*/
+
+.personal {
+  color: #004E89;
+  margin-left: 4px;
+}
