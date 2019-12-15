@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VUICP/static/css/main.a1aee1a5.chunk.css",
+    "main.js": "/VUICP/static/js/main.f252b5aa.chunk.js",
+    "main.js.map": "/VUICP/static/js/main.f252b5aa.chunk.js.map",
+    "runtime-main.js": "/VUICP/static/js/runtime-main.b96e30f9.js",
+    "runtime-main.js.map": "/VUICP/static/js/runtime-main.b96e30f9.js.map",
+    "static/js/2.24bfb174.chunk.js": "/VUICP/static/js/2.24bfb174.chunk.js",
+    "static/js/2.24bfb174.chunk.js.map": "/VUICP/static/js/2.24bfb174.chunk.js.map",
+    "index.html": "/VUICP/index.html",
+    "precache-manifest.a327b818e6c23f246f70043a6cf3c0e2.js": "/VUICP/precache-manifest.a327b818e6c23f246f70043a6cf3c0e2.js",
+    "service-worker.js": "/VUICP/service-worker.js",
+    "static/css/main.a1aee1a5.chunk.css.map": "/VUICP/static/css/main.a1aee1a5.chunk.css.map",
+    "static/media/App.css": "/VUICP/static/media/background.d42efbc1.jpg",
+    "static/media/example.jpeg": "/VUICP/static/media/example.5a705823.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b96e30f9.js",
+    "static/js/2.24bfb174.chunk.js",
+    "static/css/main.a1aee1a5.chunk.css",
+    "static/js/main.f252b5aa.chunk.js"
+  ]
+}
