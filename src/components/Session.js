@@ -35,11 +35,11 @@ class LoginScreen extends React.Component {
                         <a href="/" className="help">¿How export Alexa or DialogFlow code?</a>
                     </div>
                     <div className="containerInputs">
-                            <div className="menu">
-                                <p>Import your DIalog flow or alexa code</p>
-                                <img src={upload} alt=""/>
-                                <input type="file" onChange={this.handleChange}/>
-                            </div>
+                        <div className="menu">
+                            <p>Import your DIalog flow or alexa code</p>
+                            <img src={upload} alt=""/>
+                            <input type="file" onChange={this.handleChange}/>
+                        </div>
                         <div className="menu">
                             <p>Start a new project</p>
                             <img src={add} alt=""/>

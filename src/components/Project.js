@@ -10,6 +10,7 @@ class Project extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
+            data: [],
             title: '',
             description: '',
             languages: [],
@@ -23,8 +24,9 @@ class Project extends React.Component {
         fetch("https://vuicp-backend.herokuapp.com/projects")
         .then( res => res.json())
         .then( data => {
-            console.log(data);
+            // console.log(data);
             this.setState({
+                data: data,
                 title: data[0].title,
                 description: data[0].description,
                 languages: data[0].languages,
@@ -36,6 +38,7 @@ class Project extends React.Component {
     }
 
     render(){
+        if(this.state.data.length > 0) {
             return(
                 <section className="container">
                     <div className="alignLanguages">
@@ -56,6 +59,13 @@ class Project extends React.Component {
                     </div>
                </section>
             )
+        } else {
+            return(
+                <div className="loadingContainer">
+                    <div className="loading"></div>
+                </div>
+            )
+        }
     }
 }
 

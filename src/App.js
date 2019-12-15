@@ -10,6 +10,7 @@ import Header from './components/Header.js';
 import LoginScreen from './components/LoginScreen.js';
 import Session from './components/Session';
 import Project from './components/Project.js';
+import Google from './components/Google.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -35,6 +36,7 @@ class App extends React.Component {
           </Route> 
           <Route exact path="/user" component={Session}/>
           <Route exact path="/user/project" component={Project}/>
+          <Route path="/auth/google/callback" component={Google}></Route>
         </Router>
       </div>
     )
